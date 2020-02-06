@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luhn algorithm</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+       
+    <div class="main-container">
+        <form id="card-form">
+            <div class="credit-card-body">
+                <div class="card-information">
+                    <div class="bank-logo">
+                        <img src="img/credit-card-chip.png" alt="card-chip">
+                        <img src="img/visa-logo.png" alt="visa-logo">
+                    </div>
+                    <label for="name">Card number</label>
+                    <div class="input-number">
+                        <input 
+                            type="text" 
+                            pattern="\d{4}" 
+                            id="cardInput1" 
+                            name="card-number" 
+                            maxlength="4" 
+                            placeholder="1111" 
+                            autocomplete="off" 
+                            required
+                        >
+                        <input
+                            type="text" 
+                            pattern="\d{4}" 
+                            id="cardInput2" 
+                            name="card-number" 
+                            maxlength="4" 
+                            placeholder="1111" 
+                            autocomplete="off" 
+                            required
+                        >
+                        <input
+                            type="text" 
+                            pattern="\d{4}" 
+                            id="cardInput3" 
+                            name="card-number" 
+                            maxlength="4" 
+                            placeholder="1111" 
+                            autocomplete="off" 
+                            required
+                        >
+                        <input 
+                            type="text" 
+                            pattern="\d{4}" 
+                            id="cardInput4" 
+                            name="card-number" 
+                            maxlength="4" 
+                            placeholder="1111" 
+                            autocomplete="off" 
+                            required
+                        >
+                    </div>
+                </div>
+                <div class="button-check">
+                    <button class="card-check" type="submit">Check</button>
+                </div>         
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

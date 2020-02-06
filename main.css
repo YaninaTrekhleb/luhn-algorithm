@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+
+body {
+    background-color: rgba(248, 248, 248, 0.3);
+    font-family: 'Cambay', sans-serif;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card-body {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#bfe8f9 25%,
+    #bfe8f9 25%,#9fd8ef 52%,#9fd8ef 52%,#9fd8ef 75%,#2ab0ed 99%);
+    border-radius: 20px;
+    box-shadow: 30px 32px 35px -3px rgba(131,182,222,0.47);
+}
+
+.bank-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.bank-logo img:last-child{
+    width: 20%;
+}
+
+.bank-logo img:first-child {
+    width: 12%;
+    height: 9%;
+    margin: 20px;
+}
+
+.card-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(97, 97, 97);
+}
+ 
+.input-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+input[type=text] {
+    width: 20%;
+    border-radius: 3px;  
+    font-family: 'Cambay', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+ 
+.input-error {
+    border: 1px rgb(255, 0, 0) solid;
+    background-color: rgba(250, 168, 168, 0.877);
+}
+
+.input-success {
+    border: 1px rgb(18, 148, 51) solid;
+    background-color: rgba(100, 240, 135, 0.815);
+}
+
+.button-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 7px;
+    color: #fefefe;
+    background-color: rgb(97, 97, 97, 0.7);
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+    margin: 40px 0;
+}
