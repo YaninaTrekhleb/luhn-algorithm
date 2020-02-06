@@ -1,7 +1,9 @@
 # Luhn algorithm - credit card validity checker
 
 [Demo ▶️](https://yaninatrekhleb.github.io/luhn-algorithm/index.html)
+
 ![Demo](credit-card-demo.gif)
+
 ## What is the Luhn Algorithm
 
 A [Luhn algorithm](https://www.investopedia.com/terms/l/luhn-algorithm.asp) is an algorithm used to validate a credit card number or other identifying numbers, such as Social Security numbers. 
